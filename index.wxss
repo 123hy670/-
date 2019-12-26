@@ -1,109 +1,56 @@
 page {
-  background-color: #edece8;
+  background-color: #eeeeee;
 }
-.user_info_wrap {
-  height: 45vh;
-  overflow: hidden;
-  background-color: var(--themeColor);
-  position: relative;
-}
-.user_info_wrap .user_img_wrap {
-  position: relative;
-}
-.user_info_wrap .user_img_wrap .user_bg {
-  height: 50vh;
-  filter: blur(10rpx);
-}
-.user_info_wrap .user_img_wrap .user_info {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 20%;
-  text-align: center;
-}
-.user_info_wrap .user_img_wrap .user_info .user_icon {
-  width: 150rpx;
-  height: 150rpx;
-  border-radius: 50%;
-}
-.user_info_wrap .user_img_wrap .user_info .user_name {
-  color: #fff;
-  margin-top: 40rpx;
-}
-.user_info_wrap .user_btn {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 40%;
-  border: 1rpx solid greenyellow;
-  color: greenyellow;
-  font-size: 38rpx;
-  padding: 30rpx;
-  border-radius: 10rpx;
-}
-.user_content {
-  position: relative;
-}
-.user_content .user_main {
-  padding-bottom: 100rpx;
-  color: #666;
-  position: absolute;
-  width: 90%;
-  left: 50%;
-  transform: translateX(-50%);
-  top: -40rpx;
-}
-.user_content .user_main .history_wrap {
-  background-color: #fff;
-  display: flex;
-}
-.user_content .user_main .history_wrap navigator {
-  flex: 1;
-  text-align: center;
-  padding: 10rpx 0;
-}
-.user_content .user_main .history_wrap navigator .his_num {
-  color: var(--themeColor);
-}
-.user_content .user_main .orders_wrap {
-  background-color: #fff;
-  margin-top: 30rpx;
-}
-.user_content .user_main .orders_wrap .orders_title {
+.fb_main {
   padding: 20rpx;
-  border-bottom: 1rpx solid #ccc;
+  color: #666;
 }
-.user_content .user_main .orders_wrap .order_content {
+.fb_main .fb_tips {
   display: flex;
+  flex-wrap: wrap;
 }
-.user_content .user_main .orders_wrap .order_content navigator {
-  padding: 15rpx 0;
-  flex: 1;
+.fb_main .fb_tips text {
+  width: 30%;
+  padding: 10rpx;
   text-align: center;
-}
-.user_content .user_main .orders_wrap .order_content navigator .iconfont {
-  color: var(--themeColor);
-  font-size: 40rpx;
-}
-.user_content .user_main .address_wrap {
-  margin-top: 30rpx;
   background-color: #fff;
-  padding: 20rpx ;
+  margin: 20rpx 10rpx;
 }
-.user_content .user_main .app_info_wrap {
-  margin-top: 30rpx;
+.fb_main .fb_content {
   background-color: #fff;
+  margin-top: 20rpx;
 }
-.user_content .user_main .app_info_wrap .app_info_item {
-  padding: 20rpx ;
-  border-bottom: 1rpx solid #ccc;
+.fb_main .fb_content textarea {
+  padding: 10rpx;
 }
-.user_content .user_main .app_info_wrap .app_info_contact {
+.fb_main .fb_tool {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 30rpx;
 }
-.user_content .user_main .recommend_wrap {
-  margin-top: 30rpx;
-  background-color: #fff;
-  padding: 20rpx ;
+.fb_main .fb_tool button {
+  margin: 0;
+  width: 90rpx;
+  height: 90rpx;
+  font-size: 60rpx;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  color: #ccc;
+}
+.fb_main .fb_tool .up_img_item {
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.fb_main .form_btn_wrap {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: flex-end;
+}
+.fb_main .form_btn_wrap button {
+  margin: 0;
+  width: 30%;
 }
