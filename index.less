@@ -1,63 +1,50 @@
-page {
-  background-color: #eeeeee;
+page{
 }
-.fb_main {
-  padding: 20rpx;
-  color: #666;
-  .fb_title {
-  }
-
-  .fb_tips {
-    display: flex;
-    flex-wrap: wrap;
-    text {
-      width: 30%;
-      padding: 10rpx;
-      text-align: center;
+.collect_main{
+  background-color: #f3f4f6;
+  .collect_title{
+    padding: 40rpx 0;
+    .collect_tips{
+      padding: 15rpx;
+      border: 1rpx solid #ccc;
+      margin-left: 25rpx;
       background-color: #fff;
-      margin: 20rpx 10rpx;
+    }
+    .active{
+      color: var(--themeColor);
+      border-color: currentColor;
     }
   }
-
-  .fb_content {
-    background-color: #fff;
-    margin-top: 20rpx;
-    textarea {
-      padding: 10rpx;
-    }
-    }
-
-    .fb_tool {
+  .collect_content{
+    .goods_item{
       display: flex;
-      flex-wrap: wrap;
-      padding-bottom: 30rpx;
-      button{
-        margin: 0;
-        width: 90rpx;
-        height: 90rpx;
-        font-size: 60rpx;
-        padding: 0;
+      border-bottom: 1px solid #ccc;
+      background-color: #fff;
+      .goods_img_wrap{
+        flex: 2;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 20rpx;
-        margin-top: 20rpx;
-        color: #ccc;
+        image{
+          width: 70%;
+        }
       }
-      .up_img_item{
-        margin-left: 20rpx;
-        margin-top: 20rpx;
+      .goods_info_wrap{
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .goods_name{
+          display: -webkit-box;
+          overflow: hidden;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp:2;
+        }
+        .goods_price{
+          color: var(--themeColor);
+          font-size: 32rpx;
+        }
       }
-    }
- 
-  .form_btn_wrap {
-    margin-top: 20rpx;
-    display: flex;
-    justify-content: flex-end;
-    button{
-      margin: 0;
-      width: 30%;
     }
   }
 }
-
